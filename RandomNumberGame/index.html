@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Code Challenge</title>
+</head>
+
+<body>
+    <h1>Random Number Game</h1>
+    <form id="choiceForm">
+        <div>
+            <span>Generate a number between 0 and </span>
+            <input required id="choiceRangeInput" type="text">
+        </div>
+        <div>
+            <span>Guess the number:</span>
+            <input required id="myChoiceInput" type="text">
+            <input type="submit" value="Play!">
+        </div>
+        <div>
+            <span id="choiceResult"></span>
+            <span id="winOrLose">You lost!</span>
+        </div>
+
+    </form>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
